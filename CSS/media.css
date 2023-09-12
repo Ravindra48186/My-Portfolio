@@ -1,0 +1,222 @@
+
+
+@media (max-width:400px){
+    .about-main-first > img{
+        width: 100%;
+    }
+}
+    
+
+@media screen and (max-width:500px) and (orientation:portrait){
+    #rotate-option{
+        display: block;
+    }
+    .road{
+        display: none !important;
+    }
+    .layer{
+        display: none;
+    }
+
+}
+     
+@media (max-width:600px){
+
+
+    header > .container > .container-first{
+        width: 50%;
+    }   
+    
+    header > .container > .container-first > a{
+        font-size: 25px;
+        margin: 25px 10px;
+    }    
+
+    .main-intro-text > p{
+        margin-left: 15% !important;
+    }
+    
+    .main-intro-text > h2{
+        margin-left: 15% !important;
+    }
+
+    .contact-main > .contact-text > .active-click{
+        font-size: 18px;
+    }
+    
+    .container-hire-me > .box {
+                height: 330px;
+                width: 330px;
+                box-shadow: -1px 6px 2px 4px white;
+                top: calc(50% - 165px);
+                left: calc(50% - 165px);
+        }
+        .container-hire-me > span{
+            height: calc(20vw - 2px) !important;
+            width: calc(20vw - 2px) !important;
+          
+        }
+    
+        .one{
+            font-size: 15px;
+        height: 40px;
+        width: 166px;
+        padding-left: 28px;
+        margin-top: 22px;
+        }
+    
+        .name{
+            font-size: 15px;
+        height: 40px;
+        width: 166px;
+        padding-left: 28px;
+        margin-top:50px;
+        }
+    
+        #but{
+            height: 30px;
+        width: 150px;
+        margin-top: 30px;
+        font-size: 22px;
+        }
+        .location{
+            padding-left: 0px;
+          width: 212px;
+        }
+        
+     }  
+     
+     @media  (max-width:700px){
+        .layer{
+            width: 80px;
+            width: 182%;
+        }
+     }
+     
+     @media  (max-width:900px){
+        .cursor{
+            display: none;
+        }
+        .container-hire-me > span{
+            height: calc(10vw - 2px);
+            width: calc(10vw - 2px);
+          
+        }
+    
+        .contact-main > .contact-text{
+            width: 100%;
+            min-height: 300px;
+        }
+        .contact-main > .contact-form{
+            width: 100%;
+            padding-left: 30px;
+        }
+    
+        .projects-first{
+            width: 90% !important;
+        }
+        .projects-second{
+            width: 90% !important;
+        }
+        .projects-third{
+            width: 90% !important;
+        }
+        .projects-four{
+            width: 90% !important;
+        } 
+        .projects-five{
+            width: 90% !important;
+        } 
+
+        .layer{
+            width: 75px;
+            height: 215%;
+        }
+        #btn{
+            font-size: 18px;
+            margin-right: 24px;
+            padding: 10px 20px;
+        }
+        .arrow{
+            margin-right: -8px;
+        }
+     }   
+    
+    
+    @media (min-width:900px) and (max-width:1100px){
+        .projects-first{
+            width: 45% !important;
+        }
+        .projects-second{
+            width: 45% !important;
+        }
+        .projects-third{
+            width: 90% !important;
+        }
+       
+    }
+
+    @media (max-width:1050px) {
+        
+        .about-main-first{
+            width: 100%;
+        }
+      
+        .about-main-second{
+            width: 100%;
+        }
+    }
+    
+    
+     @media (max-width:1200px){
+    
+        header > .container > .container-second{
+            display: none;
+        }
+        .berger{
+            display: flex;
+        }
+        header > .container{
+            justify-content: left;
+        }
+    
+        .container-hire-me > span{
+            height: calc(20vw - 2px);
+            width: calc(20vw - 2px);
+        }
+    
+        .first-section > .main-intro{
+            flex-wrap: wrap;
+        }
+        .first-section > .main-intro >.main-intro-text{
+            height: 400px;
+            width: 100%;
+        }
+        .first-section > .main-intro >.main-intro-photo{
+            height: 400px;
+            width: 100%;
+        }
+       
+       
+     }   
+    
+    
+            
+     @media (max-width:1250px) {
+            
+        .taxi{
+            margin-right: -450px;
+        }
+        .police:nth-child(2){
+            display: none;
+        }
+    }
+     
+    
+     @media (max-width:1550px){
+        .container-hire-me > span{
+            height: calc(7vw - 2px);
+            width: calc(7vw - 2px);
+          
+        }
+     }   
